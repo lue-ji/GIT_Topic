@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+                body {
+        background-image: url('transfer1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+        </style>
         <meta charset="UTF-8" />
         <title>專題(問題&備材)紀錄</title>
         <link rel="stylement" href="style.css">
     </head>
     <body>
-        <h1>簡易專題紀錄(問題&備材&其他)</h1>
+        <h1 style="text-align:center;color:blue;font-size:200%;font-family:verdana;background-color:tomato;">簡易專題紀錄(問題&備材&其他)</h1>
             <div class="articale">
-                <h2>此為規範(雖然覺得用不到),但還是要記</h2>
-                <p>1.避免過多衝突,盡量提出眾人認可的提案or問題</p>
-                <p>2.別問一些雜七雜八的鬼問題,尤其戀愛&八卦類</p>
-                <p>3.主題盡量往一個大方向走,避免開多路線</p>
-                <p>4.在提出需要大量用$的情況下,請先確定整組可提供之經費,避免溝通混亂</p>
-                <p>5.最後一項:別把一堆事情堆給一個人做,以上。</p>
+                <h2 style="color:green;font-size:160%;font-family:verdana;">此為規範<del>(雖然覺得用不到)</del>,但還是要記</h2>
+                <p style="color:red;font-size:120%;font-family:verdana;">1.避免過多衝突,盡量提出眾人認可的提案or問題</p>
+                <p style="color:rgba(14, 133, 144, 0.584);font-size:120%;font-family:verdana;">2.別問一些雜七雜八的鬼問題,尤其<mark>戀愛&八卦類</mark></p>
+                <p style="color:rgb(29, 183, 131);font-size:120%;font-family:verdana;">3.主題盡量往一個大方向走,避免開多路線</p>
+                <p style="color:rgb(132, 63, 104);font-size:120%;font-family:verdana;">4.在提出需要大量用$的情況下,請先確定整組可提供之經費,避免溝通混亂</p>
+                <p style="color:rgb(155, 65, 5);font-size:120%;font-family:verdana;"><b>5.最後一項(重點):別把一堆事情堆給一個人做,以上。</b></p>
             </div>
         </div>
-        <p>已提出問題</p>
+        <p style="font-size:120%;">已提出問題</p>
         <input type="text" id="title"/>
-        <p>主要(詳細)內容</p>
+        <p style="font-size:120%;">主要(詳細)內容</p>
         <textarea id="content" rows="9"></textarea>
         <button id="btn">紀錄</button>
         <div id ="list">
