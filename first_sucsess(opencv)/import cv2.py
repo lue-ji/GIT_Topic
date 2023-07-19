@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-cap = cv2.VideoCapture()  # 0-->1 (open video file)
+cap = cv2.VideoCapture(0)  # 0-->1 (open video file)
 
 # 2. 影片尺寸
 width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
