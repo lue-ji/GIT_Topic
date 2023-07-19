@@ -1,5 +1,5 @@
 執行方式:
 1.進入Anaconda Promat 跟 Navigator 
-1-1補充(Promat 建議創建一個新環境(也可以用你原本有的環境),***並下載opencv-python==4.8.0.74***)
-1-2補充(Navigator的環境你創建的新環境(或你當前所使用的環境(只要有載opencv就行)),並下載VScode或Pycharm)(已測試兩者皆可執行)
+1-1補充(Promat 建議創建一個新環境(也可以用你原本有的環境),***需下載opencv-python==4.8.0.74***)
+1-2補充(Navigator的環境你創建的新環境(或你當前所使用的環境(只要有載opencv-python就行)),並下載VScode或Pycharm)(已測試兩者皆可執行)
 2.用VScode或Pycharm打開檔案(兩個檔皆可執行)之後執行(RUN)即可。
