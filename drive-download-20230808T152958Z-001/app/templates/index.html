@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>即時影像</title>
+  </head>
+  <body>
+    <h1>即時影像</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480" />
+    <button id="closeButton">關閉警報器</button>
+
+    <script>
+      var closeButton = document.getElementById("closeButton");
+
+      closeButton.addEventListener("click", function() {
+        fetch('/close')  // 发送请求以关闭警报器
+          .then(response => {
+            if (response.ok) {
+              alert("警報器已關閉");
+            } else {
+              alert("無法關閉警報器");
+            }
+          })
+          .catch(error => {
+            alert("無法連接到伺服器");
+          });
+      });
+    </script>
+  </body>
+</html>
